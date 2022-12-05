@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Exo6 BoSt</title>
+</head>
+
+<body>
+    <style>
+        .container, .col-4>p, .col-8, #n3c6o2, #n4c3o1, #n4c5o1>p {
+            text-align: center;
+            border: 1px solid black;
+            border-collapse: collapse;
+            border-radius: 3px;
+        }
+
+        #con3 {
+            border: none;
+        }
+
+        div {
+            background-color: palegreen;
+        }
+
+    </style>
+    <div class="container g-0">
+        <div class="row g-0">
+            <div class="col-12">
+                <p>
+                    Premier niveau avec 12 colonnes
+                </p>
+            </div>
+        </div>
+        <div class="row g-0">
+            <div class="col-8">
+                <p>
+                    Second niveau avec 8 colonnes
+                </p>
+                <div class="container g-0">
+                    <div class="row g-0">
+                        <div class="col-4">
+                            <p>
+                                Troisième niveau avec 4 colonnes
+                            </p>
+                        </div>
+                        <div class="col-6 offset-2" id="n3c6o2">
+                            <p>
+                                Troisième niveau avec 6 colonnes
+                            </p>
+                            <div class="container g-0" id="con3">
+                                <div class="row g-0">
+                                    <div class="col-3 offset-1" id="n4c3o1">
+                                        <p>
+                                            Quatrième niveau avec 3 colonnes
+                                        </p>
+                                    </div>
+                                    <div class="col-5 offset-1" id="n4c5o1">
+                                        <p>
+                                            Quatrième niveau avec 5 colonnes
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <p>
+                    Second niveau avec 4 colonnes
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
